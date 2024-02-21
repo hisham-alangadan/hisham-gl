@@ -11,4 +11,7 @@ libc and SDL2(optional; for rendering directly into a window)
 ## Documentation
 
 - If SDL isin't your cup of tea, then you can output your artwork as a ppm file.
--
+
+### For rendering into a window (SDL needed)
+
+- fads
