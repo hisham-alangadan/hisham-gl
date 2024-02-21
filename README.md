@@ -17,25 +17,26 @@ If SDL isin't your cup of tea, then you can output your artwork as a ppm file.
 - **sdltestdriver.c outputs directly into a window (needs SDL2)** <br>
 - **_Please compile files that require SDL with the -lSDL2 flag_**
 
-<!-- ### - For rendering into a window (SDL needed)
+## Functions
 
-##### void *initialiseWindow(char *WINDOW_NAME, int WINDOW_WIDTH, int WINDOW_HEIGHT)
+##### - For rendering into a window (SDL needed)
 
+void *initialiseWindow(char *WINDOW_NAME, int WINDOW_WIDTH, int WINDOW_HEIGHT)
 
-##### int fillWindow(void \*window, uint32_t color)
+int fillWindow(void \*window, uint32_t color)
 
-##### int putPixelWindow(SDL_Window \*window, int x, int y, \_\_uint32_t color)
+int putPixelWindow(SDL_Window \*window, int x, int y, \_\_uint32_t color)
 
-##### void waitTillClose(SDL_Window \*window)
+void waitTillClose(SDL_Window \*window)
 
-### - For rendering into an image file
+##### - For rendering into an image file
 
-##### void \*createCanvas(int height, int width)
+void \*createCanvas(int height, int width)
 
-##### void fillCanvas(**uint32_t \*canvas, size_t height, size_t width, **uint32_t color)
+void fillCanvas(**uint32_t \*canvas, size_t height, size_t width, **uint32_t color)
 
-##### int putPixel(**uint32_t \*canvas, int x, int y, size_t WIDTH, size_t HEIGHT, **uint32_t color)
+int putPixel(**uint32_t \*canvas, int x, int y, size_t WIDTH, size_t HEIGHT, **uint32_t color)
 
-##### void drawx(**uint32_t \*canvas, int x_coordinate, size_t WIDTH, size_t HEIGHT, **uint32_t color)
+void drawx(**uint32_t \*canvas, int x_coordinate, size_t WIDTH, size_t HEIGHT, **uint32_t color)
 
-##### int savePPM(\_\_uint32_t *canvas, size_t width, size_t height, char *filepath) -->
+int savePPM(\_\_uint32_t *canvas, size_t width, size_t height, char *filepath)
