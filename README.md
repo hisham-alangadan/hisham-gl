@@ -12,7 +12,7 @@ libc and SDL2(optional; for rendering directly into a window)
 
 If SDL isin't your cup of tea, then you can output your artwork as a ppm file.
 
-- **Check testdriver.c and sdltestdriver.c for implementation instructions**
+- **Check testdriver.c and sdltestdriver.c for implementation examples**
 - **testdriver.c outs an image file** <br>
 - **sdltestdriver.c outputs directly into a window (needs SDL2)** <br>
 - **_Please compile files that require SDL with the -lSDL2 flag_**
