@@ -154,8 +154,6 @@ void main()
     bresenhamsCircle(canvas, 400, 200, 100, 0xFFFFFFFF);
 
     // putPixel(canvas, 600, 800, WIDTH, HEIGHT, 0xFFFFFFFF);
-    while (getchar() == '\n')
-        ;
 
     err = savePPM(canvas, WIDTH, HEIGHT, "./hello.ppm");
     if (err != 0)
