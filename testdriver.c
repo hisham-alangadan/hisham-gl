@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "graphics.h"
+#include "graphics_ppm.h"
 
 #define WIDTH 600
 #define HEIGHT 800
