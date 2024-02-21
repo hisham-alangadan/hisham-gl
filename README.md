@@ -10,10 +10,26 @@ libc and SDL2(optional; for rendering directly into a window)
 
 ## Documentation
 
-- If SDL isin't your cup of tea, then you can output your artwork as a ppm file.
+If SDL isin't your cup of tea, then you can output your artwork as a ppm file.
 
 ### For rendering into a window (SDL needed)
 
-#### 4
+##### void *initialiseWindow(char *WINDOW_NAME, int WINDOW_WIDTH, int WINDOW_HEIGHT)
 
-##### 5
+##### int fillWindow(void \*window, uint32_t color)
+
+##### int putPixelWindow(SDL_Window \*window, int x, int y, \_\_uint32_t color)
+
+##### void waitTillClose(SDL_Window \*window)
+
+### For rendering into an image file
+
+##### void \*createCanvas(int height, int width)
+
+##### void fillCanvas(**uint32_t \*canvas, size_t height, size_t width, **uint32_t color)
+
+##### int putPixel(**uint32_t \*canvas, int x, int y, size_t WIDTH, size_t HEIGHT, **uint32_t color)
+
+##### void drawx(**uint32_t \*canvas, int x_coordinate, size_t WIDTH, size_t HEIGHT, **uint32_t color)
+
+##### int savePPM(\_\_uint32_t *canvas, size_t width, size_t height, char *filepath)
