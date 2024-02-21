@@ -151,7 +151,7 @@ void main(int argc, char *argv[])
     // ddaLine(window, 0, 0, 800, 600);
     // bresenhamsLine(window, 0, 0, 800, 600);
     // midPointCircle(window, 200, 200, 100, 0xFFFFFFFF);
-    // bresenhamsCircle(window, 400, 200, 100, 0xFFFFFFFF);
+    bresenhamsCircle(window, 400, 200, 100, 0xFFFFFFFF);
 
     waitTillClose(window);
 }

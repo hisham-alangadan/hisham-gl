@@ -151,7 +151,7 @@ void main()
     // ddaLine(canvas, 0, 0, WIDTH, HEIGHT);
     // bresenhamsLine(canvas, 1, 1, 8, 5);
     // midPointCircle(canvas, 200, 200, 100, 0xFFFFFFFF);
-    // bresenhamsCircle(canvas, 400, 200, 100, 0xFFFFFFFF);
+    bresenhamsCircle(canvas, 400, 200, 100, 0xFFFFFFFF);
 
     // putPixel(canvas, 600, 800, WIDTH, HEIGHT, 0xFFFFFFFF);
     while (getchar() == '\n')
