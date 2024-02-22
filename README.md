@@ -1,8 +1,8 @@
 # hisham-gl
 
 Made my own graphics library coz I can't get graphics.h to work properly on my system.
-
 Tested on Arch Linux (6.7.3), but should work on any Linux machine.
+Have only implemented a few rudimentary fucntions just enough to finish my assignment.
 
 ## Dependancies
 
